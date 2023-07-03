@@ -15,7 +15,6 @@ $(function () {
 $(".burger-menu ").on("click",".bar",function(){
   
   $(".burger").toggleClass('burger_open');
-  $(".burger__inner").toggleClass('burger__inner_open');
-  $("body").toggleClass('overflow-hidden');
+  $(".burger__inner").slideToggle();
   $("header .bar").toggleClass('change');
  });d
